@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aliceblue; */
+    /* height: 3000px; */
+}
+.topBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(201, 201, 201);
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+.img-topBar{
+    height: 62px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.left-section{
+    width: 300px;
+    display: flex;
+    /* background-color: aliceblue; */
+    align-items: center;
+    padding-left: 50px;
+}
+.topBar .left-section h4{
+    font-size: 20px;
+}
+.right-section{
+    width: 300px;
+    /* background-color: aliceblue; */
+}
+.button{
+    padding: 15px 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+.btn-fri{
+    background-color: rgb(40, 135, 224);
+    color: white;
+    margin-right: 10px;
+}
+.btn-msg{
+    background-color: gainsboro;
+}
+
+.sideBar{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(238, 238, 238);
+    width: 350px;
+}
+.sideBar .pro{
+    padding-top: 20px;
+    padding-right: 10px;
+    background-color: rgb(50, 49, 49);
+}
+.sideBar .pro img{
+    height: 72px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.info{
+    background-color: rgb(60, 60, 60);
+    flex: 1;
+    color: gray;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+.info-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -8px;
+}
+
+.inside-container{
+    position: relative;
+    background-color: rgb(199, 199, 199);
+    box-shadow: 0 0 5px gray;
+    width: 1100px;
+    height: 1500px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.x-container{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 6px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.xbox-container, .xbox-time-container{
+    width: 320px;
+    height: 180px;
+    background-color: gray;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.x-in-container{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -24px;
+    left: -24px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 6px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.time-container{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.normal-container{
+    width: 320px;
+    height: 180px;
+    background-color: gray;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 250px;
+    padding: 0 50px;
+}
+.cart-container{
+    position: relative;
+}
+.shirt-container{
+    position: relative;
+}
+.shirt-container img{
+    width: 100%;
+}
+.img-discount{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+.btn-container{
+    width: 100%;
+    z-index: 1000;
+    position: absolute;
+    top: 260px;
+    bottom: 4px;
+    background-color: rgb(216, 216, 216);
+    opacity: 0.8;
+    z-index: 1;
+}
+.btn-addCart{
+    font-size: 15px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 34%;
+    border-width: 3px;
+    font-weight: bold;
+    z-index: 100;
+    transition: 0.8s;
+}
+.btn-addCart:hover{
+    background-color: black;
+    color: white;
+}

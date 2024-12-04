@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitter text box</title>
+        <style>
+            .img {
+                width: 50px;
+                height: 50px;
+                margin-top: 40px;
+                border-radius: 100px;
+                vertical-align: middle;
+                margin-top: 0px;
+                margin-bottom: 12px;
+            }
+            .s {
+                font-size: 20px;
+                margin-top: 0px;
+                margin-left: 5px;
+                width: 300px;
+                height: 50px;
+                border: none;
+                
+            }
+            .tweet {
+                font-weight: bold;
+                color: white;
+                background-color: rgb(39, 165, 255);
+                border: none;
+                width: 80px;
+                height: 35px;
+                border-radius: 50px;
+                font-size: 15px;
+                transition: box-shadow 0.15s;
+            }
+            .tweet:hover {
+                box-shadow: 5px 5px 10px rgb(177, 171, 171);
+            }
+            .tweet:active {
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="img" src="tumbnails/tiger.jpg">
+        <input class="s" type="text" placeholder="What happening?">
+        <button class="tweet">
+            Tweet
+        </button>
+    </body>
+</html>

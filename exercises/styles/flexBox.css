@@ -1,0 +1,103 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ex1 */
+.contain{
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(180, 215, 246);
+}
+.item1{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item1 p{
+    background-color: black;
+    color: white;
+    margin-left: 25px;
+}
+.item2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(70, 229, 229);
+}
+
+/* ex2 */
+.container{
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(180, 215, 246);
+}
+.item-left{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+}
+.item-right{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(70, 229, 229);
+}
+.p-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+.p-flex p{
+    background-color: black;
+    color: white;
+}
+
+/* ex3 */
+.container-box{
+    width: 500px;
+    box-shadow: 0px 0px 3px gray;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 5px 20px;
+}
+.bar-name p{
+    color: gray;
+}
+.message-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile{
+    width: 80px;
+}
+.profile img{
+    height: 62px;
+    border-radius: 31px;
+}
+.pro-info{
+    flex: 1;
+}
+.text-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    font-weight: bold;
+    font-size: 18px;
+}
+.text p{
+    margin-bottom: -10px;
+}
+.des{
+    margin-top: 18px;
+}
